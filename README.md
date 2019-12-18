@@ -1,13 +1,14 @@
 # first-steps-with-git-and-github-wirtz-asir1-and-dam1
 
-## Receta 1: Crear un repositorio GitHub y asociarlo al repsoitorio que tengamos en la máquina local
+## Receta 1
+
+Crear un repositorio GitHub y asociarlo al repsoitorio que tengamos en la máquina local
 
 ### 1 Crear un repositorio en GitHub
 
 Usar la opción **New Repository** del menu 👇
 
 ![Hi](./img/new-repository.png)
-
 
 ### 2 Introducir los datos que nos piden
 
