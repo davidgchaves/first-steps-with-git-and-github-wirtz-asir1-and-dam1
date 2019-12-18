@@ -1,8 +1,8 @@
-# first-steps-with-git-and-github-wirtz-asir1-and-dam1
+# Primeros pasos con git y github
 
 ## Índice
 
-- [first-steps-with-git-and-github-wirtz-asir1-and-dam1](#first-steps-with-git-and-github-wirtz-asir1-and-dam1)
+- [Primeros pasos con git y github](#primeros-pasos-con-git-y-github)
   - [Índice](#Índice)
   - [Receta 1](#receta-1)
     - [1 Crear un repositorio en GitHub](#1-crear-un-repositorio-en-github)
