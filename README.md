@@ -39,7 +39,7 @@ Por tanto si vemos 👇
 
 ```sh
 ❯ pwd
-/Users/davidgchaves/proyects
+/Users/davidgchaves/projects
 ```
 
 debemos escribir, simplemente 👇
@@ -149,7 +149,7 @@ En el caso de este repositorio, para crear la carpeta debemos primero comprobar 
 
 ```sh
 ❯ pwd
-/Users/davidgchaves/proyects
+/Users/davidgchaves/projects
 ```
 
 Para a continuación crear el directorio...
@@ -168,7 +168,7 @@ Finalmente volvemos a comprobar que estamos donde debemos estar
 
 ```sh
 ❯ pwd
-/Users/davidgchaves/proyects/first-steps-with-git-and-github-wirtz-asir1-and-dam1
+/Users/davidgchaves/projects/first-steps-with-git-and-github-wirtz-asir1-and-dam1
 ```
 
 ### 4 Crear el repositorio localmente y enviarlo a Github
@@ -187,7 +187,7 @@ Inicializamos (`init`) el repositorio en nuestra máquina
 
 ```sh
 ❯ git init
-Initialized empty Git repository in /Users/davidgchaves/proyects/first-steps-with-git-and-github-wirtz-asir1-and-dam1/.git/
+Initialized empty Git repository in /Users/davidgchaves/projects/first-steps-with-git-and-github-wirtz-asir1-and-dam1/.git/
 ```
 
 Consultamos el estado (`status`) del repositorio
