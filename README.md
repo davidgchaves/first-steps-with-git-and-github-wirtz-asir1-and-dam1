@@ -7,6 +7,9 @@
   - [Consideraciones previas](#consideraciones-previas)
   - [Receta 0.1](#receta-01)
   - [Receta 0.2](#receta-02)
+  - [Receta 0.3](#receta-03)
+    - [Links](#links)
+    - [Pasos](#pasos)
   - [Receta 1](#receta-1)
     - [1 Crear un repositorio en GitHub](#1-crear-un-repositorio-en-github)
     - [2 Introducir los datos que nos piden](#2-introducir-los-datos-que-nos-piden)
@@ -69,6 +72,47 @@ Ahora podeis comprobar como ha quedado configurado ejecutando
 ```sh
 ❯ git config --list --show-origin
 ```
+
+## Receta 0.3
+
+> Generar y añadir claves ssh para identificarnos en github
+
+### Links
+
+Pasos sacados de:
+
+- [Generar una nueva clave SSH y agregarla al ssh-agent](https://help.github.com/es/enterprise/2.16/user/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Agregar una clave SSH nueva a tu cuenta de GitHub](https://help.github.com/es/enterprise/2.16/user/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
+
+### Pasos
+
+Generamos un par de claves desde el directorio home (`~`)
+
+```sh
+❯ cd ~
+❯ ssh-keygen -t rsa -b 4096 -C "EMAIL_USADO_EN_REGISTRO_DE_GITHUB"
+```
+
+Iniciamos el agente SSH
+
+```sh
+❯ eval "$(ssh-agent -s)"
+```
+
+Agregamos la **clave privada SSH** al `ssh-agent`
+
+```sh
+❯ ssh-add -K ~/.ssh/id_rsa
+```
+
+Instalamos y usamos `xclip` para copiar al portapapeles la **clave pública SSH**
+
+```sh
+❯ sudo apt install xclip
+❯ xclip -sel clip < ~/.ssh/id_rsa.pub
+```
+
+A partir de aquí, seguir los pasos de [Agregar una clave SSH nueva a tu cuenta de GitHub](https://help.github.com/es/enterprise/2.16/user/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) **desde el punto 2** en adelante.
 
 ## Receta 1
 
