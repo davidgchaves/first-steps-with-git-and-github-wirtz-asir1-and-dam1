@@ -5,7 +5,8 @@
 - [Primeros pasos con git y github](#primeros-pasos-con-git-y-github)
   - [Índice](#Índice)
   - [Consideraciones previas](#consideraciones-previas)
-  - [Receta 0](#receta-0)
+  - [Receta 0.1](#receta-01)
+  - [Receta 0.2](#receta-02)
   - [Receta 1](#receta-1)
     - [1 Crear un repositorio en GitHub](#1-crear-un-repositorio-en-github)
     - [2 Introducir los datos que nos piden](#2-introducir-los-datos-que-nos-piden)
@@ -29,7 +30,7 @@ debemos escribir, simplemente 👇
 pwd
 ```
 
-## Receta 0
+## Receta 0.1
 
 > Instalar git en Ubuntu
 
@@ -49,6 +50,25 @@ git version 2.20.1 (Apple Git-117)
 ```
 
 **NOTA**: He ejecutado `git --version` en un OS X y no en un Linux... de ahí el resultado.
+
+## Receta 0.2
+
+> Configurar parametros globales de git tras instalación
+
+Vamos a configurar **nombre**, **email** y **editor**. Es posible configurar más cosas pero con estas 3, por el momento, tenemos suficiente ☄️
+
+```
+❯ cd ~
+❯ git config --global user.name "AQUI VA TU NOMBRE"
+❯ git config --global user.email AQUI_VA_TU_EMAIL@WHATEVER.COM
+❯ git config --global core.editor AQUI_VA_TU_EDITOR
+```
+
+Ahora podeis comprobar como ha quedado configurado ejecutando
+
+```sh
+❯ git config --list --show-origin
+```
 
 ## Receta 1
 
