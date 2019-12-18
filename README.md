@@ -4,11 +4,29 @@
 
 - [Primeros pasos con git y github](#primeros-pasos-con-git-y-github)
   - [Índice](#Índice)
+  - [Consideraciones previas](#consideraciones-previas)
   - [Receta 1](#receta-1)
     - [1 Crear un repositorio en GitHub](#1-crear-un-repositorio-en-github)
     - [2 Introducir los datos que nos piden](#2-introducir-los-datos-que-nos-piden)
     - [3 Crear una carpeta para el repositorio en la máquina local](#3-crear-una-carpeta-para-el-repositorio-en-la-máquina-local)
     - [4 Crear el repositorio localmente y enviarlo a Github](#4-crear-el-repositorio-localmente-y-enviarlo-a-github)
+
+## Consideraciones previas
+
+Las líneas que debemos escribir en la ventana de comandos son las que van despues de un `❯ ` sin el `❯ `.
+
+Por tanto si vemos 👇
+
+```sh
+❯ pwd
+/Users/davidgchaves/proyects
+```
+
+debemos escribir, simplemente 👇
+
+```sh
+pwd
+```
 
 ## Receta 1
 
@@ -25,19 +43,6 @@ Usar la opción **New Repository** del menu 👇
 Nombre, descripción y determinar si va a ser privado o público.
 
 ### 3 Crear una carpeta para el repositorio en la máquina local
-
-**NOTA**: Las líneas que debemos escribir son las que van despues de un `❯ ` sin el `❯ ` . Por tanto si vemos
-
-```sh
-❯ pwd
-/Users/davidgchaves/proyects
-```
-
-Debemos escribir
-
-```sh
-pwd
-```
 
 En el caso de este repositorio, para crear la carpeta debemos primero comprobar que nos encontramos en el directorio correcto `projects`👇
 
