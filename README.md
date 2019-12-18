@@ -1,5 +1,15 @@
 # first-steps-with-git-and-github-wirtz-asir1-and-dam1
 
+## Índice
+
+- [first-steps-with-git-and-github-wirtz-asir1-and-dam1](#first-steps-with-git-and-github-wirtz-asir1-and-dam1)
+  - [Índice](#Índice)
+  - [Receta 1](#receta-1)
+    - [1 Crear un repositorio en GitHub](#1-crear-un-repositorio-en-github)
+    - [2 Introducir los datos que nos piden](#2-introducir-los-datos-que-nos-piden)
+    - [3 Crear una carpeta para el repositorio en la máquina local](#3-crear-una-carpeta-para-el-repositorio-en-la-máquina-local)
+    - [4 Crear el repositorio localmente y enviarlo a Github](#4-crear-el-repositorio-localmente-y-enviarlo-a-github)
+
 ## Receta 1
 
 > Crear un repositorio GitHub y asociarlo al repositorio que tengamos en la máquina local
