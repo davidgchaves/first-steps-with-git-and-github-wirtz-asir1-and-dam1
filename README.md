@@ -5,6 +5,7 @@
 - [Primeros pasos con git y github](#primeros-pasos-con-git-y-github)
   - [Índice](#Índice)
   - [Consideraciones previas](#consideraciones-previas)
+  - [Receta 0](#receta-0)
   - [Receta 1](#receta-1)
     - [1 Crear un repositorio en GitHub](#1-crear-un-repositorio-en-github)
     - [2 Introducir los datos que nos piden](#2-introducir-los-datos-que-nos-piden)
@@ -27,6 +28,27 @@ debemos escribir, simplemente 👇
 ```sh
 pwd
 ```
+
+## Receta 0
+
+> Instalar git en Ubuntu
+
+En una ventana de comandos ejecutamos, uno tras otro, los 3 comandos siguientes 👇
+
+```sh
+❯ sudo add-apt-repository ppa:git-core/ppa
+❯ sudo apt update
+❯ sudo apt install git
+```
+
+Comprobamos que todo ha ido bien y que nuestro sistema reconoce `git` 🎉🚀⚡️
+
+```sh
+❯ git --version
+git version 2.20.1 (Apple Git-117)
+```
+
+**NOTA**: He ejecutado `git --version` en un OS X y no en un Linux... de ahí el resultado.
 
 ## Receta 1
 
