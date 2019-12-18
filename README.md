@@ -15,6 +15,7 @@
     - [2 Introducir los datos que nos piden](#2-introducir-los-datos-que-nos-piden)
     - [3 Crear una carpeta para el repositorio en la máquina local](#3-crear-una-carpeta-para-el-repositorio-en-la-máquina-local)
     - [4 Crear el repositorio localmente y enviarlo a Github](#4-crear-el-repositorio-localmente-y-enviarlo-a-github)
+  - [Receta 2](#receta-2)
 
 ## Consideraciones previas
 
@@ -364,4 +365,51 @@ A partir de ahora cada vez que queramos enviar los datos a Github bastará con `
 
 ```sh
 ❯ git push
+```
+
+## Receta 2
+
+> Clonar un repositorio de github
+
+Vamos a clonar un repositorio cualquiera, por ejemplo el [dotfiles-example](https://github.com/davidgchaves/dotfiles-example.git) 👽
+
+Como paso previo, nos situaremos en el directorio raiz correcto
+
+```sh
+❯ cd ~/projects
+```
+
+A continuación buscaremos y copiaremos la **dirección de clonado ssh** en la interfaz gráfica de github
+
+![](./img/clone.png)
+
+para finalmente proceder al clonado
+
+```
+❯ git clone git@github.com:davidgchaves/dotfiles-example.git
+Cloning into 'dotfiles-example'...
+Enter passphrase for key '/Users/davidgchaves/.ssh/id_rsa':
+remote: Enumerating objects: 15, done.
+remote: Total 15 (delta 0), reused 0 (delta 0), pack-reused 15
+Receiving objects: 100% (15/15), done.
+Resolving deltas: 100% (1/1), done.
+```
+
+Ahora podemos acceder localmente al repositorio y consultar lo que queramos
+
+```
+❯ cd dotfiles-example/
+
+❯ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+❯ git log
+013daa3 Update README.md (davidgchaves, 1 year, 1 month ago)
+3572c0b Add intructions for generating ssh keys (David G Chaves, 1 year, 1 month ago)
+3346b9c Add README with instructions (David G Chaves, 1 year, 1 month ago)
+e420514 Add gitconfig file (David G Chaves, 1 year, 1 month ago)
+47cf7cf Initial commit (David G Chaves, 1 year, 1 month ago)
 ```
