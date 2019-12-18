@@ -4,6 +4,8 @@
 
 - [Primeros pasos con git y github](#primeros-pasos-con-git-y-github)
   - [Índice](#Índice)
+  - [Links Markdown](#links-markdown)
+  - [Links Git y Github](#links-git-y-github)
   - [Consideraciones previas](#consideraciones-previas)
   - [Receta 0.1](#receta-01)
   - [Receta 0.2](#receta-02)
@@ -16,6 +18,18 @@
     - [3 Crear una carpeta para el repositorio en la máquina local](#3-crear-una-carpeta-para-el-repositorio-en-la-máquina-local)
     - [4 Crear el repositorio localmente y enviarlo a Github](#4-crear-el-repositorio-localmente-y-enviarlo-a-github)
   - [Receta 2](#receta-2)
+
+## Links Markdown
+
+- [Mastering Markdown Github](https://guides.github.com/features/mastering-markdown/)
+- [Markdown Tables Generator ](https://www.tablesgenerator.com/markdown_tables)
+- [14 Best Markdown Editors for Linux](https://itsfoss.com/best-markdown-editors-linux/)
+
+## Links Git y Github
+
+- [Juego Learn Git Branching](https://learngitbranching.js.org/)
+- [Libro Beginning Git and GitHub](https://www.apress.com/gp/book/9781484253120)
+- [Libro Pro Git 2 Online](https://git-scm.com/book/en/v2)
 
 ## Consideraciones previas
 
