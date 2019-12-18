@@ -2,15 +2,15 @@
 
 ## Receta 1
 
-Crear un repositorio GitHub y asociarlo al repsoitorio que tengamos en la máquina local
+> Crear un repositorio GitHub y asociarlo al repositorio que tengamos en la máquina local
 
-### 1 Crear un repositorio en GitHub
+### 1 Crear un repositorio en GitHub
 
 Usar la opción **New Repository** del menu 👇
 
 ![Hi](./img/new-repository.png)
 
-### 2 Introducir los datos que nos piden
+### 2 Introducir los datos que nos piden
 
 Nombre, descripción y determinar si va a ser privado o público.
 
