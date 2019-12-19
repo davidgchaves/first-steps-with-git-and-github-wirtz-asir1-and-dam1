@@ -117,7 +117,7 @@ Iniciamos el agente SSH
 Agregamos la **clave privada SSH** al `ssh-agent`
 
 ```sh
-❯ ssh-add -K ~/.ssh/id_rsa
+❯ ssh-add ~/.ssh/id_rsa
 ```
 
 Instalamos y usamos `xclip` para copiar al portapapeles la **clave pública SSH**
