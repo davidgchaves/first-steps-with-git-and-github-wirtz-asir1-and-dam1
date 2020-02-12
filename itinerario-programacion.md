@@ -28,6 +28,11 @@
 - [Hardcore Functional Programming in JavaScript v2 with Brian Lonsdorf (Frontend Masters)](https://frontendmasters.com/workshops/functional-programming-javascript-v2/): Ollo, formato workshop, ten que sair a versión curso en nada.
 - [Functional Architecture Patterns with Brian Lonsdorf (Frontend Masters)](https://frontendmasters.com/workshops/functional-architecture-patterns/): Ollo, formato workshop, ten que sair a versión curso en nada.
 
+### Dr. Frisby (Stop Motion)
+
+- [Classroom Coding with Prof. Frisby by Brian Lonsdorf (Youtube)](https://www.youtube.com/playlist?list=PLK_hdtAJ4KqX0JOs_KMAmUNTNMRYhWEaC)
+- [Professor Frisby Introduces Composable Functional JavaScript by Brian Lonsdorf (Egghead)](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
+
 ## Conferencias e exercicios JavaScript
 
 - [The Good Parts of JavaScript and the Web with Douglas Crockford (Frontend Masters)](https://frontendmasters.com/courses/good-parts-javascript-web/)
