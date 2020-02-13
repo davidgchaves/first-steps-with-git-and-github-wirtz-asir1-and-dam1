@@ -2,3 +2,4 @@
 
 - [Itinerario posible para programadoras](itinerario-programacion/)
 - [Primeros pasos con git e github](primeros-pasos-con-git-e-github/)
+- [Funciones de agregado](funciones-de-agregado/)
