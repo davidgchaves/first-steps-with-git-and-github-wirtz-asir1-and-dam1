@@ -54,6 +54,7 @@
 - [Complete Intro to React v5 with Brian Holt (Frontend Masters)](https://frontendmasters.com/courses/complete-react-v5/)
 - [Modern React with Redux [2020 Update] with Stephen Grinder (Udemy)](https://www.udemy.com/course/react-redux/)
 - [Advanced React and Redux: 2020 Edition with Stephen Grinder (Udemy)](https://www.udemy.com/course/react-redux-tutorial/)
+- [Advanced React Patterns v2 with Kent C. Dodds (Frontend Masters)](https://frontendmasters.com/workshops/advanced-react-patterns-v2/): Workshop para o 18 de marzo do 2020.
 
 ## Computer Science (Algoritmos)
 
@@ -76,6 +77,11 @@
 ## Bases de datos NoSQL - MongoDB
 
 - [Introduction to MongoDB with Scott Moss (Frontend Masters)](https://frontendmasters.com/courses/mongodb/)
+
+## Testing
+
+- [Testing JavaScript with Kent C. Dodds (Kent C. Dodds)](https://testingjavascript.com/): Carísimo.
+- [Testing React Applications v2 with Kent C. Dodds (Frontend Masters)](https://frontendmasters.com/workshops/testing-react-v2/): Workshop para o 19 de marzo do 2020.
 
 ## Linguaxe: Haskell e programación funcional (MOOC)
 
