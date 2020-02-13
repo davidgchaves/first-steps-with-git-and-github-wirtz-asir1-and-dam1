@@ -1,3 +1,7 @@
+# ASIR1 e DAM1 no Wirtz 2019/2020
+
+- [Itinerario posible para programadoras](itinerario-programacion/)
+
 # Primeros pasos con git y github
 
 ## Índice
