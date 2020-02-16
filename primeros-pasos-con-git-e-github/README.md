@@ -7,17 +7,17 @@
   - [Links Markdown](#links-markdown)
   - [Links Git y Github](#links-git-y-github)
   - [Consideraciones previas](#consideraciones-previas)
-  - [Receta 0.1](#receta-01)
-  - [Receta 0.2](#receta-02)
-  - [Receta 0.3](#receta-03)
+  - [Receta 0.1: Instalar git en Ubuntu](#receta-01-instalar-git-en-ubuntu)
+  - [Receta 0.2: Configurar parametros globales de git](#receta-02-configurar-parametros-globales-de-git)
+  - [Receta 0.3: Generar y añadir claves ssh a Github](#receta-03-generar-y-añadir-claves-ssh-a-github)
     - [Links](#links)
     - [Pasos](#pasos)
-  - [Receta 1](#receta-1)
+  - [Receta 1: Crear un repositorio GitHub y asociarlo al repositorio local](#receta-1-crear-un-repositorio-github-y-asociarlo-al-repositorio-local)
     - [1 Crear un repositorio en GitHub](#1-crear-un-repositorio-en-github)
     - [2 Introducir los datos que nos piden](#2-introducir-los-datos-que-nos-piden)
     - [3 Crear una carpeta para el repositorio en la máquina local](#3-crear-una-carpeta-para-el-repositorio-en-la-máquina-local)
     - [4 Crear el repositorio localmente y enviarlo a Github](#4-crear-el-repositorio-localmente-y-enviarlo-a-github)
-  - [Receta 2](#receta-2)
+  - [Receta 2: Clonar un repositorio de Github](#receta-2-clonar-un-repositorio-de-github)
 
 ## Links Markdown
 
@@ -48,7 +48,7 @@ debemos escribir, simplemente 👇
 pwd
 ```
 
-## Receta 0.1
+## Receta 0.1: Instalar git en Ubuntu
 
 > Instalar git en Ubuntu
 
@@ -69,7 +69,7 @@ git version 2.20.1 (Apple Git-117)
 
 **NOTA**: He ejecutado `git --version` en un OS X y no en un Linux... de ahí el resultado.
 
-## Receta 0.2
+## Receta 0.2: Configurar parametros globales de git
 
 > Configurar parametros globales de git tras instalación
 
@@ -88,9 +88,9 @@ Ahora podeis comprobar como ha quedado configurado ejecutando
 ❯ git config --list --show-origin
 ```
 
-## Receta 0.3
+## Receta 0.3: Generar y añadir claves ssh a Github
 
-> Generar y añadir claves ssh para identificarnos en github
+> Generar y añadir claves ssh para identificarnos en Github
 
 ### Links
 
@@ -129,7 +129,7 @@ Instalamos y usamos `xclip` para copiar al portapapeles la **clave pública SSH*
 
 A partir de aquí, seguir los pasos de [Agregar una clave SSH nueva a tu cuenta de GitHub](https://help.github.com/es/enterprise/2.16/user/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account) **desde el punto 2** en adelante.
 
-## Receta 1
+## Receta 1: Crear un repositorio GitHub y asociarlo al repositorio local
 
 > Crear un repositorio GitHub y asociarlo al repositorio que tengamos en la máquina local
 
@@ -381,9 +381,9 @@ A partir de ahora cada vez que queramos enviar los datos a Github bastará con `
 ❯ git push
 ```
 
-## Receta 2
+## Receta 2: Clonar un repositorio de Github
 
-> Clonar un repositorio de github
+> Clonar un repositorio de Github
 
 Vamos a clonar un repositorio cualquiera, por ejemplo el [dotfiles-example](https://github.com/davidgchaves/dotfiles-example.git) 👽
 
