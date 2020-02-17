@@ -32,7 +32,6 @@ Para finalizar o proceso, debemos engadir un post cunha ligazón á revisión qu
 
 - A <nome-alumno-e-primeira-letra-do-apelido-revisado> co usuario <@usuario-de-github>.
 - Por <nome-alumno-e-primeira-letra-do-apelido-que-revisa> co usuario <@usuario-de-github>.
-
 ```
 
 Se alguén non quere o seu nome en aberto en Github, podedes enviarme esa info por email.
