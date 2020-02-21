@@ -4,3 +4,4 @@
 - [Primeros pasos con git e github](primeros-pasos-con-git-e-github/)
 - [Funciones de agregado](funciones-de-agregado/)
 - [👽🤖👾🚀 Entrega de apuntamentos 🚀👾🤖👽](entrega-apuntamentos/)
+- [Fotos da pizarra](fotos-de-clase/)
