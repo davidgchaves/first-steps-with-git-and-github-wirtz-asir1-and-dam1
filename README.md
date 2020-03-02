@@ -5,3 +5,4 @@
 - [Funciones de agregado](funciones-de-agregado/)
 - [👽🤖👾🚀 Entrega de apuntamentos 🚀👾🤖👽](entrega-apuntamentos/)
 - [Fotos da pizarra](fotos-de-clase/)
+- [Exercicio campeonato](exercicio-campeonato/)
