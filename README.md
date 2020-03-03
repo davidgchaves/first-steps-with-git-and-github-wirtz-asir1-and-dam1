@@ -7,3 +7,4 @@
 - [Fotos da pizarra](fotos-de-clase/)
 - [Exercicio campeonato](exercicio-campeonato/)
 - [Exercicio DDL 1 - Proxectos de investigación](exercicios-ddl/1-proxectos-de-investigacion)
+- [Exercicio DDL 2 - Naves espaciais](exercicios-ddl/2-naves-espaciais)
