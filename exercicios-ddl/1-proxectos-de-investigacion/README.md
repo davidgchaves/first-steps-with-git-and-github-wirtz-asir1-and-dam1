@@ -14,4 +14,15 @@ Un profesor pode participar en varios proxectos. En cada proxecto incorpórase n
 
 A partir do esquema relacional proporcionado, implementalo en PostgreSQL.
 
+## Bugs
+
+Na relación **Proxecto** o atributo `Grupo*` debería ter as restricións:
+
+- B:N
+- M:C
+
 ![Esquema relacional de _proxectos de investigación_](./img/1-proxectos-de-investigacion-relacional.jpeg)
+
+## Posible solución
+
+- [Gist da solución discutida na clase](https://gist.github.com/davidgchaves/54fbb719fe28b3a73cd3108f71aea008)
