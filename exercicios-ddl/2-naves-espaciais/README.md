@@ -13,3 +13,7 @@ De cada planeta coñécese o seu nome e código, a galaxia e coordenadas nas que
 A partir do esquema relacional proporcionado, implementalo en PostgreSQL.
 
 ![Esquema relacional de _naves espaciais_](./img/2-naves-espaciais-relacional.jpeg)
+
+## Posible solución
+
+- [Gist da solución discutida na clase](https://gist.github.com/davidgchaves/a0a67f363583fef74e05a34a8b905f11)
